@@ -12,14 +12,32 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 		
+        <style>
+            @media(max-width: 480px){
+                #background_table{
+                    padding: 0!important;
+                }
+                .content-divider{
+                    margin-left: 20px!important;
+                }
+                .user-profile{
+                    width: 120px!important;
+                    padding-left: 33px!important;
+                }
+                .user-profile img{
+                    width: 100px!important;
+                }
+            }
+        </style>
+
 	</head>
-    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="background: #f5f5f5;font-family: 'Roboto', sans-serif;padding: 30px 0;">
-            <table id="background_table" cellspacing="0" cellpadding="0" style="background: #fff;box-shadow: 0 0 5px #ddd; width: 600px;margin: 0 auto;">
-                <tbody cellpadding="0" cellspacing="0">
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="background: #f5f5f5;font-family: 'Roboto', sans-serif;">
+            <table id="background_table" cellspacing="0" cellpadding="0" style="background: #f5f5f5;width: 600px;margin: 0 auto; padding: 30px 0;">
+                <tbody cellpadding="0" cellspacing="0" style="box-shadow: 0 0 5px rgba(0,0,0,0.5);">
                     <tr>
                         <td>
                             <!-- // Begin Template Body \\ -->
-                            <table id="template_body" cellpadding="0" cellspacing="0" style="background-image: url('https://aiopaward.com/wp-content/uploads/2023/10/aoip-newsletter-bg.png');background-size: cover; max-width: 600px; padding: 20px 33px;">
+                            <table id="template_body" cellpadding="0" cellspacing="0" style="background: #f5f5f5;background-image: url('https://aiopaward.com/wp-content/uploads/2023/10/aoip-newsletter-bg.png');background-size: cover; max-width: 600px; padding: 20px 33px;">
                                 <tr>
                                     <td class="body-heading" style="padding: 0 30px; padding-top: 50px;">
                                         <img src="https://aiopaward.com/wp-content/uploads/2023/09/Logo-AIOP-1.png" alt="Logo" width="237">
@@ -35,7 +53,7 @@
                                     <td class="body-heading" style="padding: 0 30px;">
                                         <h2 style="color: #C79D2A;font-family: 'Cinzel', serif;font-size: 20px;font-weight: 600;margin-top: 20px;margin-bottom: 10px;">Greetings [[First Name]]</h2>
                                         <p style="font-family: 'Poppins', sans-serif;font-size: 14px;margin-top: 0px;margin-bottom: 35px;">Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                        <img src="https://aiopaward.com/wp-content/uploads/2023/10/stars-line.png" alt="divider" style="margin-bottom: 130px;margin-left: 49px;">
+                                        <img class="content-divider" src="https://aiopaward.com/wp-content/uploads/2023/10/stars-line.png" alt="divider" style="margin-bottom: 130px;margin-left: 49px;">
                                     </td>
                                 </tr>
                                 
@@ -46,14 +64,14 @@
                     <tr>
                         <td>
                             <!-- // Begin Template Footer \\ -->
-                            <table id="template_footer" cellpadding="0" cellspacing="0" style="background: #09163A; background-image: url('https://aiopaward.com/wp-content/uploads/2023/10/footer_background.png');background-size: contain;background-repeat: no-repeat; width: 600px;padding-bottom: 25px;">
+                            <table id="template_footer" cellpadding="0" cellspacing="0" width="600" style="background: #09163A; background-image: url('https://aiopaward.com/wp-content/uploads/2023/10/footer_background.png');background-size: contain;background-repeat: no-repeat;padding-bottom: 25px;">
                                 <tr>
-                                    <td class="footer-content">
+                                    <td class="footer-content" width="600">
                                         <!-- // Begin Module: Transactional Footer \\ -->
-                                        <table cellpadding="0" cellspacing="0" width="100%">
+                                        <table cellpadding="0" cellspacing="0" width="600">
                                             <tr>
-                                                <td style="width: 152px;padding-left: 63px;">
-                                                    <img src="https://aiopaward.com/wp-content/uploads/2023/10/placeholder.png" alt="Picture" style="transform: translate(0px,0px);">
+                                                <td class="user-profile" style="width: 152px;padding-left: 63px;">
+                                                    <img src="https://aiopaward.com/wp-content/uploads/2023/10/placeholder.png" alt="Picture" style="transform: translate(0px,0px);width: 128px;">
                                                 </td>
                                                 <td>
                                                     <h4 style="color: #fff; font-size: 21px; margin: 0;margin-top: 20px;">David  Logue</h4>
